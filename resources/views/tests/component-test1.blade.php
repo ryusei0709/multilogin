@@ -4,7 +4,7 @@ header1
 </x-slot>
 コンポネント１
 
-<x-tests.card title="タイトル" content="コンテント"></x-tests.card>
+<x-tests.card title="タイトル" content="コンテント" :message="$message"></x-tests.card>
 
 
 </x-tests.app>
